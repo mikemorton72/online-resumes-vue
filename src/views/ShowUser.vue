@@ -1,8 +1,24 @@
 <template>
-  <div>
-    <h1>User Show</h1>
-
-    <div class="card" style="width: 35rem;">
+  <div class="aclass">
+    <div class="card mb-3" style="max-width: 800px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://s.yimg.com/uu/api/res/1.2/j.IuW7t1ZkqNb32aj9xaDw--~B/aD00MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/fec49aa7467e3735885162a33b8e83d9" class="img-fluid rounded-start" alt="">
+        </div>
+        <div class="col-md-8" >
+          <div class="card-body">
+            <h5 class="card-title">Student #1</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Bio</h6>
+            <p class="card-text">Highly motivated student that strategizes key learnings into buckets</p>
+            <h6 class="card-subtitle mb-2 text-muted">Contact Info</h6>
+            <p class="card-text"><a href="https://www.linkedin.com/in/mike-morton72/">LinkedIn</a></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="card" style="width: 800px;">
       <div class="card-body">
         <h5 class="card-title">Experiences</h5>
         <h6 class="card-subtitle mb-2 text-muted">Company Name</h6>
@@ -12,7 +28,7 @@
       </div>
     </div>
     <br />
-    <div class="card" style="width: 35rem;">
+    <div class="card" style="width: 800px;">
       <div class="card-body">
         <h5 class="card-title">Education</h5>
         <h6 class="card-subtitle mb-2 text-muted">School #1</h6>
@@ -22,14 +38,14 @@
       </div>
     </div>
     <br />
-    <div class="card" style="width: 35rem;">
+    <div class="card" style="width: 800px;">
       <div class="card-body">
         <h5 class="card-title">Skills</h5>
         <p class="card-text">Skill 1, skill 2, skill 3, skill 5</p>
       </div>
     </div>
     <br />
-    <div class="card" style="width: 35rem;">
+    <div class="card" style="width: 800px;">
       <div class="card-body">
         <h5 class="card-title">Capstone</h5>
         <h6 class="card-subtitle mb-2 text-muted">Description</h6>
