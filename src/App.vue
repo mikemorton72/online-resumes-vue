@@ -3,6 +3,8 @@
     <div class="head bg-white text-light" align="center">
       <a href="/"><img src="https://i.imgur.com/MCvfxZJ.jpg" style="width:600px;height:100px;"></a>
       </div>
+      <!-- <a href="/"><img src="https://i.imgur.com/HkIMQrH.jpg" style="width:600px;height:155px;"></a>
+      </div> -->
     <!-- <div class="container"> -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -18,7 +20,7 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" align="center">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
@@ -37,4 +39,7 @@
   align-content: "center";
   width: 800px;
 }
+/* .navbar {
+  margin-left: 550px;
+} */
 </style>
