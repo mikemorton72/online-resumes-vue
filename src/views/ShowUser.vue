@@ -1,5 +1,6 @@
 <template>
-  <div class="aclass">
+  <div class="aclass bg-dark">
+    <br>
     <div class="card mb-3" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
@@ -11,7 +12,10 @@
             <h6 class="card-subtitle mb-2 text-muted">Bio</h6>
             <p class="card-text">Highly motivated student that strategizes key learnings into buckets</p>
             <h6 class="card-subtitle mb-2 text-muted">Contact Info</h6>
-            <p class="card-text"><a href="https://www.linkedin.com/in/mike-morton72/">LinkedIn</a></p>
+            <a class="btn btn-primary" style="background-color: #333333;" href="https://www.linkedin.com/in/mike-morton72" role="button"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/mikemorton72" role="button"><i class="fab fa-github"></i></a>
+            <a class="btn btn-primary" style="background-color: #333333;" href="https://twitter.com/elmo" role="button"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-primary" style="background-color: #333333;" href="mailto: pdn6991@gmail.com" role="button"><img src="https://i.imgur.com/AkZEyyd.png" height="23" width="23"></a>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -92,11 +96,17 @@
       </div>
     </div>
     <br />
-    <div class="card" style="width: 800px;">
+    <!-- <div class="card" style="width: 800px;">
       <div class="card-body">
         <h5 class="card-title">Twitter Feed</h5>
         <TwitterFeed data-width="800" data-height="800" data-theme="dark"  src="https://twitter.com/elmo"></TwitterFeed>
       </div>
+    </div> -->
+    <div class="twitter" align="center">
+      <TwitterFeed data-width="800" data-height="800" data-theme="light"  src="https://twitter.com/elmo"></TwitterFeed>
     </div>
   </div>
 </template>
+
+<style>
+</style>

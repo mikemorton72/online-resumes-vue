@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <br /> 
+  <div class="home bg-dark">
+    <br>
     <div class="card mb-3" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
