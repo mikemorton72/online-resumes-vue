@@ -14,6 +14,8 @@
             <h6 class="card-subtitle mb-2 text-muted">Contact Info</h6>
             <a class="btn btn-primary" style="background-color: #333333;" href="https://www.linkedin.com/in/mike-morton72" role="button"><i class="fab fa-linkedin-in"></i></a>
             <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/mikemorton72" role="button"><i class="fab fa-github"></i></a>
+            <a class="btn btn-primary" style="background-color: #333333;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-primary" style="background-color: #333333;" href="mailto: pdn6991@gmail.com" role="button"><img src="https://i.imgur.com/AkZEyyd.png" height="23" width="23"></a>
 
             <!-- <p class="card-text"><a href="https://www.linkedin.com/in/mike-morton72/">LinkedIn</a></p> -->
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
