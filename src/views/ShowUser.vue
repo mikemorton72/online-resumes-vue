@@ -1,5 +1,5 @@
 <template>
-  <div class="aclass bg-secondary">
+  <div class="aclass bg-dark">
     <br>
     <div class="card mb-3" style="max-width: 800px;">
       <div class="row g-0">
@@ -93,11 +93,17 @@
       </div>
     </div>
     <br />
-    <div class="card" style="width: 800px;">
+    <!-- <div class="card" style="width: 800px;">
       <div class="card-body">
         <h5 class="card-title">Twitter Feed</h5>
         <TwitterFeed data-width="800" data-height="800" data-theme="dark"  src="https://twitter.com/elmo"></TwitterFeed>
       </div>
+    </div> -->
+    <div class="twitter" align="center">
+      <TwitterFeed data-width="800" data-height="800" data-theme="dark"  src="https://twitter.com/elmo"></TwitterFeed>
     </div>
   </div>
 </template>
+
+<style>
+</style>
