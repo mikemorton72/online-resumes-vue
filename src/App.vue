@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="head bg-white text-light" align="center">
-      <img src="https://i.imgur.com/MCvfxZJ.jpg" style="width:600px;height:100px;">
+      <a href="/"><img src="https://i.imgur.com/MCvfxZJ.jpg" style="width:600px;height:100px;"></a>
       </div>
     <!-- <div class="container"> -->
       <nav class="navbar navbar-expand-lg navbar-light">
