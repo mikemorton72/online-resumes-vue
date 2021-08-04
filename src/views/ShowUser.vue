@@ -12,7 +12,10 @@
             <h6 class="card-subtitle mb-2 text-muted">Bio</h6>
             <p class="card-text">Highly motivated student that strategizes key learnings into buckets</p>
             <h6 class="card-subtitle mb-2 text-muted">Contact Info</h6>
-            <p class="card-text"><a href="https://www.linkedin.com/in/mike-morton72/">LinkedIn</a></p>
+            <a class="btn btn-primary" style="background-color: #333333;" href="https://www.linkedin.com/in/mike-morton72" role="button"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/mikemorton72" role="button"><i class="fab fa-github"></i></a>
+
+            <!-- <p class="card-text"><a href="https://www.linkedin.com/in/mike-morton72/">LinkedIn</a></p> -->
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -100,7 +103,7 @@
       </div>
     </div> -->
     <div class="twitter" align="center">
-      <TwitterFeed data-width="800" data-height="800" data-theme="dark"  src="https://twitter.com/elmo"></TwitterFeed>
+      <TwitterFeed data-width="800" data-height="800" data-theme="light"  src="https://twitter.com/elmo"></TwitterFeed>
     </div>
   </div>
 </template>

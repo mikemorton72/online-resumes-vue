@@ -42,4 +42,7 @@
 /* .navbar {
   margin-left: 550px;
 } */
+#app {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
 </style>
