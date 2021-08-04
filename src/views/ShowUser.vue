@@ -1,5 +1,6 @@
 <template>
-  <div class="aclass">
+  <div class="aclass bg-secondary">
+    <br>
     <div class="card mb-3" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
