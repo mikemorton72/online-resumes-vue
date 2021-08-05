@@ -1,22 +1,21 @@
 <template>
   <div class="home bg-dark">
     <br>
-    <div class="card mb-3" style="max-width: 800px;">
+    <div class="card mb-3" style="max-width: 800px;" v-for="student in students">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="https://s.yimg.com/uu/api/res/1.2/j.IuW7t1ZkqNb32aj9xaDw--~B/aD00MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/fec49aa7467e3735885162a33b8e83d9" class="img-fluid rounded-start" alt="">
+          <img v-bind:src="student.photo" class="img-fluid rounded-start" alt="">
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Student #1</h5>
-            <p class="card-text">Short Bio about student #1 who has learned many things.</p>
+            <h5 class="card-title">{{`${student.first_name} ${student.last_name}`}}</h5>
+            <p class="card-text"><b>Bio: </b>{{ student.short_bio }}</p>
               <a
               type="button" 
               class="btn btn-primary btn-sm" 
               style="background-color: #333333;" 
-              href="http://localhost:8080/users/2" 
-              role="button"> Show More Info...</a>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              v-bind:href="`/users/${student.id}`" 
+              role="button"> See Resume</a>
             <div>
             </div>
           </div>
@@ -27,5 +26,23 @@
 </template>
 
 <script>
-export default {};
+import axios from "axios";
+export default {
+  created: function () {
+    this.getStudents();
+  },
+  data: function () {
+    return {
+      students: {},
+    };
+  },
+  methods: {
+    getStudents: function () {
+      axios.get("http://localhost:3000/students").then((response) => {
+        this.students = response.data;
+        console.log(this.students);
+      });
+    },
+  },
+};
 </script>
