@@ -10,7 +10,6 @@
           <div class="card-body">
             <h5 class="card-title">Student #1</h5>
             <p class="card-text">Short Bio about student #1 who has learned many things.</p>
-            <p class="card-text"><a href="/users/2">Show More Info...</a></p>
               <a
               type="button" 
               class="btn btn-primary btn-sm" 
