@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <br /> 
+  <div class="home bg-dark">
+    <br>
     <div class="card mb-3" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
@@ -10,8 +10,16 @@
           <div class="card-body">
             <h5 class="card-title">Student #1</h5>
             <p class="card-text">Short Bio about student #1 who has learned many things.</p>
-            <p class="card-text"><a href="https://www.linkedin.com/in/mike-morton72/">LinkedIn</a></p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><a href="/users/2">Show More Info...</a></p>
+              <a
+              type="button" 
+              class="btn btn-primary btn-sm" 
+              style="background-color: #333333;" 
+              href="http://localhost:8080/users/2" 
+              role="button"> Show More Info...</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div>
+            </div>
           </div>
         </div>
       </div>
