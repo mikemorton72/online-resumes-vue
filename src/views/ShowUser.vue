@@ -1,5 +1,5 @@
 <template>
-  <div class="aclass bg-dark">
+  <div class="bg-dark">
     <br>
     <div class="card mb-3" style="max-width: 800px;">
       <div class="row g-0">
@@ -8,15 +8,15 @@
         </div>
         <div class="col-md-8" >
           <div class="card-body">
-            <h5 class="card-title">Student #1</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Bio</h6>
-            <p class="card-text">Highly motivated student that strategizes key learnings into buckets</p>
-            <h6 class="card-subtitle mb-2 text-muted">Contact Info</h6>
+            <h4 class="card-title">firstName lastName</h4>
+            <p class="card-text">Bio: Highly motivated student that strategizes key learnings into buckets</p>
+            <h6 class="card-subtitle mb-2 text-dark">Contact</h6>
+            <button class="btn btn-primary" style="background-color: #333333;" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><img src="https://www.vhv.rs/dpng/d/52-524161_black-phone-icon-png-transparent-png.png" height="23" width="23"></button>
+            <a class="btn btn-primary" style="background-color: #333333;" href="https://patricknikolaus.github.io/" role="button"><img src="https://www.clipartmax.com/png/middle/469-4691996_logo-clipart-website-bbcpersian7-collections-world-wide-web-icon-png.png" height="23" width="23"></a>
             <a class="btn btn-primary" style="background-color: #333333;" href="https://www.linkedin.com/in/mike-morton72" role="button"><i class="fab fa-linkedin-in"></i></a>
             <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/mikemorton72" role="button"><i class="fab fa-github"></i></a>
             <a class="btn btn-primary" style="background-color: #333333;" href="https://twitter.com/elmo" role="button"><i class="fab fa-twitter"></i></a>
             <a class="btn btn-primary" style="background-color: #333333;" href="mailto: pdn6991@gmail.com" role="button"><img src="https://i.imgur.com/AkZEyyd.png" height="23" width="23"></a>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
@@ -24,34 +24,38 @@
     <br />
     <div class="card" style="width: 800px;">
       <div class="card-body">
-        <h5 class="card-title">Experiences</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Company Name</h6>
+        <h4 class="card-title">Experiences</h4>
+        <h6 class="card-subtitle mb-2 text-dark">Company Name | Start Date - End Date</h6>
+        <h6 class="card-subtitle mb-2 text-dark">Job Title</h6>
         <p class="card-text">All of my responsibilites at Company Name</p>
-        <h6 class="card-subtitle mb-2 text-muted">Another Company Name</h6>
+        <h6 class="card-subtitle mb-2 text-dark">Another Company Name</h6>
+        <h6 class="card-subtitle mb-2 text-dark">Job Title</h6>
         <p class="card-text">All of my responsibilites at Another Company Name</p>
       </div>
     </div>
     <br />
     <div class="card" style="width: 800px;">
       <div class="card-body">
-        <h5 class="card-title">Education</h5>
-        <h6 class="card-subtitle mb-2 text-muted">School #1</h6>
+        <h4 class="card-title">Education</h4>
+        <h6 class="card-subtitle mb-2 text-dark">School #1 | Start Date - End Date</h6>
+        <h6 class="card-subtitle mb-2 text-dark">B.S. Chemistry</h6>
         <p class="card-text">All of my responsibilites at School Name</p>
-        <h6 class="card-subtitle mb-2 text-muted">Another School Name</h6>
+        <h6 class="card-subtitle mb-2 text-dark">Another School Name | Start Date - End Date</h6>
+        <h6 class="card-subtitle mb-2 text-dark">M.S. Physics</h6>
         <p class="card-text">All of my responsibilites at Another School Name</p>
       </div>
     </div>
     <br />
     <div class="card" style="width: 800px;">
       <div class="card-body">
-        <h5 class="card-title">Skills</h5>
+        <h4 class="card-title">Skills</h4>
         <p class="card-text">Skill 1, skill 2, skill 3, skill 5</p>
       </div>
     </div>
     <br />
     <div class="card" style="width: 800px;">
       <div class="card-body">
-        <h5 class="card-title">Capstone</h5>
+        <h4 class="card-title">Capstone</h4>
         <h6 class="card-subtitle mb-2 text-muted">Description</h6>
         <p class="card-text">Capstone description text</p>
         <p class="card-text">Capstone URL</p>
@@ -110,3 +114,15 @@
 
 <style>
 </style>
+<script>
+export default {
+  created: function () {
+    this.toggleTooltip;
+  },
+  methods: {
+    toggleTooltip: function () {
+      `[data-toggle="tooltip"]`.tooltip("hide");
+    },
+  },
+};
+</script>
